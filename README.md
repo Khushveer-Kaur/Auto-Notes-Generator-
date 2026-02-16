@@ -139,13 +139,22 @@ Used for:
 
 ## Running the Project
 
-1. Install dependencies:
+### Step 1: Install dependencies:
 
 `pip install -r requirements.txt`
 
-2. Run the notebook and execute all cells sequentially.
+### Step 2: Install FFmpeg (Required for audio processing)
 
-3. To generate notes, modify the YouTube link in the final cell:
+Windows:
+1. Download from [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+2. Extract the folder
+3. Copy the "bin" folder path
+4. Add it to System Environment Variables → Path
+5. Restart terminal
+
+### Step 3: Run the notebook and execute all cells sequentially.
+
+### Step 4: To generate notes, modify the YouTube link in the final cell:
 
 `YOUTUBE_URL = "your_link_here"`
 
