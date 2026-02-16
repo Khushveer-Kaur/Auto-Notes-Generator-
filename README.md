@@ -48,7 +48,11 @@ A sentence is labeled important if its token overlap with the reference summary 
 5. Random Forest  
 6. MLP Neural Network
 
+   <img width="1218" height="674" alt="image" src="https://github.com/user-attachments/assets/8b541f67-54ae-4619-8db0-3fde71e5da0c" />
+
+
 Class imbalance is handled using balanced training and threshold tuning.
+
 
 ---
 
@@ -64,6 +68,9 @@ The system predicts the number of sentences required in the final summary.
 ### Models used:
 - Linear Regression  
 - Polynomial Regression
+
+   <img width="1193" height="308" alt="image" src="https://github.com/user-attachments/assets/28ea2c70-bfde-41ab-88d4-bb7c7a6d5791" />
+
 
 ---
 
@@ -122,6 +129,11 @@ Used for:
 ### Structural quality:
 - Compression ratio  
 - Summary length statistics
+
+<img width="1172" height="393" alt="image" src="https://github.com/user-attachments/assets/9afe3504-4dd4-47ce-9f82-0c54088fd27a" />
+
+<img width="1321" height="682" alt="image" src="https://github.com/user-attachments/assets/e88c2836-18de-4cfe-a089-35487aa6a463" />
+
 
 ---
 
